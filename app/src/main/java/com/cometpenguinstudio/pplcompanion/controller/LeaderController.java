@@ -55,12 +55,22 @@ public class LeaderController {
     }
 
     private void loadSeedData() {
-        Leader emmett = new Leader(18017760521381478L, "Emmett, the Special", "Piece of Resistance Badge", LeaderType.CASUAL);
+        Leader emmett = new Leader(180177605213814784L, "Emmett, the Special", "Piece of Resistance Badge", LeaderType.CASUAL);
+        Leader kenny = new Leader(193573529684410369L, "Simple Kenny, the Berry Farmer", "Berry Badge", LeaderType.CASUAL);
+        Leader yoshua = new Leader(305375865838239744L, "Yoshua, the Birdwatcher", "Plume Badge", LeaderType.CASUAL);
         Leader virgil = new Leader(221279588997791744L, "Virgil, The Haunted Guide", "Possessed Badge", LeaderType.VETERAN);
         Leader cryo = new Leader(340559329000423424L, "Cryo, Twister of the Elements", "Floe Emblem", LeaderType.ELITE);
         Leader eleanora = new Leader(504917257491578880L, "Eleanora, the Exquisite Entomologist", "N/A", LeaderType.CHAMPION);
 
         casualLeaders.add(emmett);
+        casualLeaders.add(kenny);
+        casualLeaders.add(yoshua);
+        casualLeaders.add(emmett);
+        casualLeaders.add(kenny);
+        casualLeaders.add(yoshua);
+        casualLeaders.add(emmett);
+        casualLeaders.add(kenny);
+        casualLeaders.add(yoshua);
         veteranLeaders.add(virgil);
         eliteLeaders.add(cryo);
         championLeaders.add(eleanora);
